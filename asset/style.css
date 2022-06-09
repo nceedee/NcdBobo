@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../asset/font/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../asset/font/Raleway/static/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: bold-one;
+    src: url(../asset/font/Raleway/static/Raleway-Bold.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: raleway;
+    font-family: 16px;
+    
+    color: white;
+    
+}
+
+.btn-align:hover{
+    background-color: rgb(207, 145, 30);
+    border: none;
+    color: white;
+    
+}
+
+.doting:hover{
+    color: white;
+    display: block;
+}
+
+.btn-align-2:hover{
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 55px;
+    font-family: bold-one;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.all-content{
+    overflow-x: hidden;
+    background: url(../asset/photo/ncdbobo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+p{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.dash{
+    color: rgb(207, 145, 30);
+    line-height: 0px;
+}
+
+
+.all-content{
+    padding: 20px 140px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bar{
+    display: none;
+}
+
+.arca{
+    display: flex;
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.arca h4:nth-child(1){
+    font-family: bold-one;
+}
+
+.arca h4:nth-child(2){
+    font-family: light;
+    color: rgb(182, 182, 182);
+}
+
+
+.header-2{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-family: light;
+    cursor: pointer;
+    
+}
+
+.header-2 h5:hover{
+    text-decoration: underline ;
+}
+
+
+
+.header-2-btn span{
+    color: rgb(207, 145, 30);
+    font-size: 7px;
+    margin-right: 4px;
+}
+
+.header-2-btn button{
+    font-size: 15px;
+    font-family: raleway;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-align{
+    display: flex;
+    align-items: center;
+    background: none;
+    color: white;
+    border: 
+    2px solid white;
+    border-radius: 4px;
+    padding: 6px 30px;
+}
+
+
+.btn-align-2{
+    background-color: rgb(207, 145, 30);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 8px 35px;
+}
+
+.header-2-btn{
+    display: flex;
+    align-items: center;
+     
+   
+}
+
+
+.content-btn button{
+    background-color: rgb(207, 145, 30);
+    color: white;
+    font-family: bold;
+    padding: 10px 70px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-btn button:hover{
+    background: none;
+    border: 2px solid white;
+}
+
+.content{
+    padding-left: 40px;
+    width: 40%;
+}
+
+.all-content2{
+    overflow-x: hidden;
+    padding: 10px;
+    /* background-color: rgb(1, 1, 17); */
+    background-color: white;
+    text-align: center;
+}
+.steph img{
+    width: 100%;
+}
+
+.steph:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.steph img:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.steph-h5{
+    background-color: rgb(207, 145, 30);
+    padding: 30px;
+}
+
+.dark-mode{
+    color: black;
+}
+
+.steph2{
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px){
+    .all-content{
+        padding: 20px 50px;
+    }
+
+    .content{
+        width: 50%;
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 991px){
+    h1{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    h5{
+        font-size: 13px;
+    }
+
+    .all-content{
+        padding: 15px 30px;
+    }
+
+    button{
+        font-size: 13px;
+    }
+
+    .btn-align{
+        padding: 4px 20px;
+    }
+
+    .btn-align-2{
+        padding: 6px 20px;
+    }
+
+    .bar{
+        display: block;
+        font-size: 30px;
+        position: relative;
+    }
+
+    .header-2{
+        display: none;
+    }
+
+    .header-2-btn{
+        width: 40%;
+    }
+
+    .btn-align:hover{
+        background-color: rgb(207, 145, 30);
+        border: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+        
+    }
+
+    .doting:hover{
+        color: white;
+        display: block;
+    }
+
+    .btn-align-2:hover{
+        background: none;
+        border: 2px solid white;
+        border-radius: 4px;
+    }
+
+
+    
+
+
+    .bar-h5{
+        background-color: rgb(207, 145, 30);
+        padding: 4px 20px 4px 8px;
+        line-height: 0px;
+        position: absolute;
+        left: -50;
+        margin-top: 10px;
+        display: none;
+    }
+
+
+    .bar-h5 h5{
+        width: 90px;
+        cursor: pointer;
+    }
+
+    .bar:hover > .bars + .bar-h5{
+        display: block;
+    }
+    
+}
+
+
+@media (max-width: 425px){
+    .all-content{
+        padding: 7px 7px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    .btn-align{
+        padding: 2px 15px;
+    }
+
+    .btn-align-2{
+        padding: 4px 15px;
+    }
+
+    .header-2-btn button{
+       font-size: 10px; margin: 5px;
+    }
+
+    .header-2-btn{
+        width: 50%;
+    }
+
+    .bars{
+        font-size: 20px;
+    }
+
+    .bar{
+        margin-right: 20px;
+    }
+
+    .content{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .header-2-btn{
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    .bar-h5{
+        left: -60;
+    }
+}
